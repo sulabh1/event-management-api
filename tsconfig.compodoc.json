@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": [
+        "node_modules",
+        "dist",
+        "documentation",
+        "test",
+        "**/*.spec.ts",
+        "**/*.test.ts",
+        "**/template-playground/**"
+    ]
+}

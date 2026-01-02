@@ -1,0 +1,21 @@
+# .dockerignore
+node_modules
+npm-debug.log
+dist
+.git
+.gitignore
+.env
+.env.local
+.env.*.local
+*.md
+.vscode
+.idea
+coverage
+.nyc_output
+documentation
+*.log
+logs
+*.swp
+*.swo
+*~
+.DS_Store
