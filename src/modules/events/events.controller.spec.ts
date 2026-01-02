@@ -1,5 +1,3 @@
-// src/events/events.controller.spec.ts
-
 import { Test, TestingModule } from '@nestjs/testing';
 import { EventsController } from './events.controller';
 import { EventsService } from './events.service';
