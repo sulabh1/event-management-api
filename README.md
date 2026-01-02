@@ -258,10 +258,10 @@ git clone <repository-url>
 cd event-management-api
 
 # 2. Start all services
-docker-compose up -d
+docker compose -f docker-compose.dev.yml up --build 
 
 # 3. View logs
-docker-compose logs -f api
+docker compose logs -f 
 
 # 4. Access application
 # API: http://localhost:3000
